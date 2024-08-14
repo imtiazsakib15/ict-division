@@ -8,7 +8,7 @@ const Topbar = () => {
     <>
       <Container>
         <div className="flex justify-between items-center gap-5 py-5">
-          <div className="flex items-center gap-2">
+          <a href="" className="flex items-center gap-2">
             <img
               className="h-14 sm:h-auto"
               src={bdGov}
@@ -20,7 +20,7 @@ const Topbar = () => {
               </h3>
               <p className="text-sm">গণপ্রজাতন্ত্রী বাংলাদেশ সরকার</p>
             </div>
-          </div>
+          </a>
           <div className="relative">
             <input
               className="border rounded-full h-10 px-4 py-2 max-w-40 md:max-w-48 lg:max-w-52"
