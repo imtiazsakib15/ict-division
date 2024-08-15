@@ -1,4 +1,3 @@
-import { BiMenu } from "react-icons/bi";
 import Container from "./Container";
 
 const Navbar = () => {
