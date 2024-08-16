@@ -7,11 +7,11 @@ const AllNecessaryLinks = () => {
   return (
     <div className="pb-8">
       <Container>
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-5">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">
           {LINKS.map((link) => (
             <div
               key={link.heading}
-              className="group relative border px-5 py-12 cursor-pointer"
+              className="group relative border px-5 py-12"
             >
               <h3 className="text-lg sm:text-xl font-semibold text-center">
                 {link.heading}
@@ -30,7 +30,7 @@ const AllNecessaryLinks = () => {
                     <a
                       key={singleLink}
                       href="#"
-                      className="flex items-center gap-2"
+                      className="flex items-center gap-2 max-w-max text-sm md:text-base"
                     >
                       <FaArrowRight />
                       {singleLink}

@@ -1,6 +1,7 @@
 import AllNecessaryLinks from "./components/AllNecessaryLinks";
 import ImageAndNotice from "./components/ImageAndNotice";
 import Navbar from "./components/Navbar";
+import OtherLinks from "./components/OtherLinks";
 import Topbar from "./components/Topbar";
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
       <Navbar />
       <ImageAndNotice />
       <AllNecessaryLinks />
+      <OtherLinks />
     </>
   );
 }
