@@ -34,7 +34,7 @@ const Footer = () => {
             <div className="space-y-5 text-center">
               <div>
                 <h3 className="text-base sm:text-lg font-semibold text-center pb-3">
-                  প্রয়োজনীয় লিংক
+                  সামাজিক যোগাযোগ
                 </h3>
                 <div className="flex gap-4 justify-center">
                   <img

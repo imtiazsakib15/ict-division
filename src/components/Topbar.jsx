@@ -7,6 +7,23 @@ const Topbar = () => {
   return (
     <>
       <Container>
+        <div className="hidden sm:flex justify-between border border-t-0 text-sm p-2">
+          <div className="flex items-center gap-1">
+            <p>বাংলাদেশ জাতীয় তথ্য বাতায়ন</p>
+            <select className="border">
+              <option value="">অফিসের ধরন</option>
+            </select>
+            <button className="px-2 py-1 bg-[#84154D] rounded text-white font-medium">
+              Go
+            </button>
+          </div>
+          <div>
+            <button className="px-2 py-1 bg-[#84154D] rounded text-white font-medium">
+              English
+            </button>
+          </div>
+        </div>
+
         <div className="flex justify-between items-center gap-5 py-5">
           <a href="" className="flex items-center gap-2">
             <img
