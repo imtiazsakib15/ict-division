@@ -6,17 +6,18 @@ import mygovPhoto from "./../assets/images/mygov.png";
 import bridgeTollPhoto from "./../assets/images/bridge_toll.png";
 import centralEServicesPhoto from "./../assets/images/central_e_services.png";
 import officeAttachmentPhoto from "./../assets/images/office_attachment.png";
+import firstPlacePhoto from "./../assets/images/first_place.png";
 
 const OtherLinks = () => {
   return (
     <div className="pb-8">
       <Container>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-6">
           <div>
             <h3 className="text-lg sm:text-xl font-semibold">
               অভ্যন্তরীণ ই-সেবাসমূহ
             </h3>
-            <div className="pt-4 space-y-2">
+            <div className="pt-5 space-y-2.5">
               <a
                 href="#"
                 className="flex items-center gap-2 hover:text-[#84154D] max-w-max"
@@ -69,7 +70,7 @@ const OtherLinks = () => {
             <h3 className="text-lg sm:text-xl font-semibold">
               গুরুত্বপূর্ণ লিংক
             </h3>
-            <div className="pt-4 space-y-2">
+            <div className="pt-5 space-y-2.5">
               <a
                 href="#"
                 className="flex items-center gap-2 hover:text-[#84154D] max-w-max"
@@ -126,7 +127,7 @@ const OtherLinks = () => {
           </div>
           <div>
             <h3 className="text-lg sm:text-xl font-semibold">অন্যান্য</h3>
-            <div className="pt-4 flex flex-col gap-2">
+            <div className="pt-5 flex flex-col gap-2">
               <a href="#">
                 <img src={eDirectoryPhoto} alt="Hotline Numbers" />
               </a>
@@ -146,6 +147,18 @@ const OtherLinks = () => {
                 <img src={officeAttachmentPhoto} alt="Hotline Numbers" />
               </a>
             </div>
+          </div>
+
+          <div>
+            <h3 className="text-sm font-semibold">
+              বার্ষিক কর্মসম্পাদন চুক্তি (এপিএ) ২০২০-২০২১ এর চূড়ান্ত মূল্যায়নে
+              তথ্য ও যোগাযোগ প্রযুক্তি বিভাগের প্রথম স্থান অর্জন
+            </h3>
+            <img
+              className="aspect-[5/6]"
+              src={firstPlacePhoto}
+              alt="First Place Notice"
+            />
           </div>
         </div>
       </Container>

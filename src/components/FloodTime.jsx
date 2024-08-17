@@ -3,9 +3,9 @@ import denguPhoto from "./../assets/images/dengu.jpg";
 
 const FloodTime = () => {
   return (
-    <div className="py-8">
+    <div className="pb-8">
       <Container>
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6 pt-4">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
           <div className="col-span-2">
             <h3 className="text-lg sm:text-xl font-semibold">
               বন্যার সময় কি করণীয়
@@ -15,7 +15,7 @@ const FloodTime = () => {
               src="https://www.youtube.com/embed/GT9ShGE_qjg?si=haXl0m9vn0EoGBOT"
               title="YouTube video player"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-              allowfullscreen
+              allowFullScreen
             ></iframe>
           </div>
           <div>

@@ -22,22 +22,86 @@ const EmergencyHotline = () => {
       <Container>
         <h3 className="text-lg sm:text-xl font-semibold">জরুরি হটলাইন</h3>
         <div className="flex flex-wrap gap-1 pt-4">
-          <img src={hotlinePhoto1} alt="Hotline Photo 1" className="ps-2" />
-          <img src={hotlinePhoto2} alt="Hotline Photo 2" />
-          <img src={hotlinePhoto3} alt="Hotline Photo 3" />
-          <img src={hotlinePhoto4} alt="Hotline Photo 4" />
-          <img src={hotlinePhoto5} alt="Hotline Photo 5" />
-          <img src={hotlinePhoto6} alt="Hotline Photo 6" />
-          <img src={hotlinePhoto7} alt="Hotline Photo 7" />
-          <img src={hotlinePhoto8} alt="Hotline Photo 8" />
-          <img src={hotlinePhoto9} alt="Hotline Photo 9" />
-          <img src={hotlinePhoto10} alt="Hotline Photo 10" />
-          <img src={hotlinePhoto11} alt="Hotline Photo 11" />
-          <img src={hotlinePhoto12} alt="Hotline Photo 12" />
-          <img src={hotlinePhoto13} alt="Hotline Photo 13" />
-          <img src={hotlinePhoto14} alt="Hotline Photo 14" />
-          <img src={hotlinePhoto15} alt="Hotline Photo 15" />
-          <img src={hotlinePhoto16} alt="Hotline Photo 16" />
+          <img
+            src={hotlinePhoto1}
+            alt="Hotline Photo 1"
+            className="ps-2 max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto2}
+            alt="Hotline Photo 2"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto3}
+            alt="Hotline Photo 3"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto4}
+            alt="Hotline Photo 4"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto5}
+            alt="Hotline Photo 5"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto6}
+            alt="Hotline Photo 6"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto7}
+            alt="Hotline Photo 7"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto8}
+            alt="Hotline Photo 8"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto9}
+            alt="Hotline Photo 9"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto10}
+            alt="Hotline Photo 10"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto11}
+            alt="Hotline Photo 11"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto12}
+            alt="Hotline Photo 12"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto13}
+            alt="Hotline Photo 13"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto14}
+            alt="Hotline Photo 14"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto15}
+            alt="Hotline Photo 15"
+            className="max-w-40 aspect-[5/3]"
+          />
+          <img
+            src={hotlinePhoto16}
+            alt="Hotline Photo 16"
+            className="max-w-40 aspect-[5/3]"
+          />
         </div>
       </Container>
     </div>
