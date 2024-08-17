@@ -1,4 +1,5 @@
 import AllNecessaryLinks from "./components/AllNecessaryLinks";
+import BottomBar from "./components/BottomBar";
 import EmergencyHotline from "./components/EmergencyHotline";
 import FloodTime from "./components/FloodTime";
 import ImageAndNotice from "./components/ImageAndNotice";
@@ -16,6 +17,7 @@ function App() {
       <OtherLinks />
       <FloodTime />
       <EmergencyHotline />
+      <BottomBar />
     </>
   );
 }
