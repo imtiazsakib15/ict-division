@@ -6,7 +6,7 @@ const BottomBar = () => {
   return (
     <div className="py-8">
       <Container>
-        <div className="flex justify-between">
+        <div className="flex flex-col sm:flex-row gap-5 justify-between">
           <NationalAnthem />
           <VisitorCounter />
         </div>

@@ -1,6 +1,6 @@
 const VisitorCounter = () => {
   return (
-    <table className="border border-collapse">
+    <table className="border border-collapse text-sm">
       <thead>
         <p className="p-2 text-center font-bold">Visitor Counter</p>
       </thead>
